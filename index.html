@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">	
+<head>	
+<title>Resume - M R Kishore Kumar</title>
+<meta charset="UTF-8">
+<meta name="description" content="M R Kishore Kumar. ML (via Python) - WEB DEVELOPER - CAD DESIGNER.">
+<meta name="keywords" content="M R KISHORE KUMAR, mrkishorekumar, mrkishorekumar.com, M R Kishore Kumar, M R Kishore Kumar - Resume, M R Kishore Kumar - Portfolio, Blog.mrkishorekumar.com">
+<meta name="author" content="M R Kishore Kumar">
+<meta http-equiv="refresh" content="30">
+<link rel="icon" href="favicon.png" type="image/gif" sizes="16x16">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.buttonDownload {
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+  
+	background-color: #4CC713;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+}
+
+.buttonDownload:hover {
+	background-color: #333;
+	color: white;
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+/* Download arrow shape */
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+  
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+	
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: #4CC713;
+}
+
+.buttonDownload:hover:after {
+	border-top-color: #4CC713;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
+</style>
+</head>
+<body>
+<center>
+<img src="M R Kishore Kumar.png" alt="M R Kishore Kumar - Resume" class="responsive">
+<br>
+
+<a href="M R Kishore Kumar.pdf" download class="buttonDownload">Download Resume</a>
+</center>
+</body>
+</html>
